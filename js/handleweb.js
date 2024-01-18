@@ -59,45 +59,10 @@ $(document).ready(function(){
             setTimeout(function() {$('#loadingContainer').fadeOut('slow')},1000);
             $(".insernumber").hide()
             $(".copiedtransfer").css({"display":"grid"})
+            $imagemhandle2.attr("src",srcdafoto2);
+            $("#retaligacao2").show()
         })
     }
-
-
-
-
-
-
-    // temporario buttão
-    $("#id1").click(function(){
-        console.log("Número correto. Escondendo #fieldnumber");
-        $fieldNumberDiv.hide().fadeOut(1000);
-        $virbutton.hide();
-        $(".afterfadeName").css({"display":"grid"})
-        $("#confirmatedName").css({"display":"flex"})
-        $("#loadingContainer").css({"display":"flex"})
-        setTimeout(function() {$('#loadingContainer').fadeOut('slow')},500);
-        $imagemhandle.attr("src",srcdafoto);
-        $("#mudancaimgdados").hide()
-        $("#mudancapdados").hide()
-        $(".afterfadeName").hide()
-        $("#confirmatedName").hide()
-        $("#fieldnumber").hide()
-        $("#confirmatedPix").css("display","flex")
-        $("#mudancaimgpayment").show()
-        $("#mudancappayment").show()
-        $(".pixmethod").css("display","grid")
-        $("#retaligacao").show()
-        $(".insernumber").hide()
-        $(".copiedtransfer").css({"display":"grid"})
-        $imagemhandle2.attr("src",srcdafoto2);
-        $("#retaligacao2").show()
-
-        
-    })
-
-
-
-
 
 
 })
