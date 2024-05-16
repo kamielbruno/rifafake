@@ -1,0 +1,30 @@
+.az1{border: 1px solid black;}
+.az2{gap: 20px;}
+.aze h2{width: 50px;}
+
+.bringbring1 div{border: 1px solid black;}
+.bringbring2 div{border: 1px solid black;}
+.bringbring3 div{border: 1px solid black;}
+
+.bringbring4 div{border: 1px solid black;}
+
+.bringbring5 div{border: 1px solid black;}
+
+
+/* .vaoivaoi h2{background-color: rgb(58, 58, 155);} */
+
+button {
+    /* Reset de todos os estilos do botão */
+    background-color: transparent;
+    border: none;
+    color: inherit;
+    font: inherit;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    /* Adicional: remover qualquer estilo de foco */
+    outline: none;
+    width: 100%;
+  }
+
+
